@@ -144,10 +144,6 @@ def game():
                     if (first == True):
                         button_press_time = pygame.time.get_ticks()
                         first = False
-                        print (int(button_press_time/1000))
-                    dt=current_time-button_press_time
-                    T = int((timer-dt)/1000)
-                    realtime=str(T)
 
                     screen.blit(img, (0, 0))
                     ball=Ball()
